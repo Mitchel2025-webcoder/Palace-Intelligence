@@ -3,7 +3,7 @@ const C={
  name:"Palace Intelligence",
  abbr:"(LESINI)",
  tagline:"For impact and for excellence.", // EDIT
- bio:"Palace Intelligence (LESINI) is the Leadership Empowerment and Social Impact Network Initiative. We equip leaders, young people and organisations with the skills, tools and platforms to create lasting impact in Nigeria and beyond. Replace this text with your own story, mission and values.", // EDIT
+ bio:"Leadership Empowerment and Social Impact Network Initiative (LESINI) a.k.a. Palace Intelligence. We equip leaders, young people and organisations with the skills, tools and platforms to create lasting impact in Nigeria and beyond.", // EDIT
  services:[
   {t:"Leadership Empowerment",d:"Mentorship and programmes that build confident, purpose-driven leaders."},
   {t:"Capacity Training",d:"Practical workshops that strengthen the skills of teams and individuals."},

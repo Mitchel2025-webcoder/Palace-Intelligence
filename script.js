@@ -10,7 +10,7 @@ const C={
   {t:"Digital Marketing",d:"Social media, branding and online campaigns that grow your audience."},
   {t:"Book Publishing",d:"Editing, design and publishing support to take your book from draft to shelf."},
   {t:"Printing",d:"Quality printing for books, banners, brochures and branded materials."},
-  {t:"Youth Counseling",d:"Guidance and support that helps young people make wise choices for their future."}
+  {t:"Youth Counseling",d:"Guidance and support that help young people make wise choices for their future."}
  ],
  ceo:{
   name:"Chris Leo", alias:"PapaKris", role:"Chief Executive Officer", initials:"CL",

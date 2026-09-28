@@ -35,7 +35,7 @@ const C={
 /* ================================================= */
 
 const $=s=>document.querySelector(s),L=(a,h,t)=>`<a href="${h}" ${h.startsWith('http')?'target="_blank" rel="noopener"':''}>${t}</a>`;
-document.title=C.name+" ("+C.abbr+")";
+document.title=C.name+" | "+C.abbr.replace(/[()]/g,"");
 $('#bn').textContent=C.name.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());$('#ab').textContent=C.abbr;$('#tl').textContent=C.tagline;$('#bio').textContent=C.bio;
 let n=0;$('#hn').innerHTML=C.name.split(' ').map(w=>'<span class="w">'+[...w].map(c=>`<i style="animation-delay:${(.15+n++*.05).toFixed(2)}s">${c}</i>`).join('')+'</span>').join(' ');
 $('#sv').innerHTML=C.services.map(s=>`<div class="row"><h3>${s.t}</h3><p>${s.d}</p></div>`).join('');
